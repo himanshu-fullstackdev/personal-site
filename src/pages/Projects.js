@@ -13,7 +13,7 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2 data-testid="heading">
+          <h2>
             <Link to="/projects">Projects</Link>
           </h2>
           <p>A selection of projects that I&apos;m not too ashamed of</p>

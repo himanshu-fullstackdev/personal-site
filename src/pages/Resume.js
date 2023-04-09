@@ -24,7 +24,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading">
+          <h2>
             <Link to="resume">Resume</Link>
           </h2>
           {/* <div className="link-container">
@@ -33,7 +33,7 @@ const Resume = () => (
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>
             ))}
-          </div> */}
+          </div>  */}
         </div>
       </header>
       <Education data={degrees} />
