@@ -7,8 +7,8 @@
     "jest": true
   },
   "rules": {
-    "linebreak-style": 0,
-    "prettier/prettier": ["error", { "singleQuote": true }],
+    "eol-last": ["error", "never"],
+    "linebreak-style": 0, 
     "jsx-a11y/anchor-is-valid": ["error", {
       "components": ["Link"],
       "specialLink": ["to", "hrefLeft", "hrefRight"],
