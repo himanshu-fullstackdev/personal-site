@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Main from "../layouts/Main";
+import Main from '../layouts/Main';
 
-import Cell from "../components/Projects/Cell";
-import data from "../data/projects";
+import Cell from '../components/Projects/Cell';
+import data from '../data/projects';
 
-import Request from "../components/Projects/Request";
+import Request from '../components/Projects/Request';
 
 const Projects = () => (
   <Main title="Projects" description="Learn about Himanshu Arora's projects.">
