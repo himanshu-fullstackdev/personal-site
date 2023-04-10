@@ -22,7 +22,7 @@ const Contact = () => (
         <a href="mailto:himanshu73188@gmail.com">himanshu73188@gmail.com</a>
         <p
           style={{
-            marginTop: "10px",
+            marginTop: '10px',
           }}
         >
           You can also reach me on my mobile:

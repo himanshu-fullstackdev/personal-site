@@ -5,7 +5,7 @@ import Markdown from 'markdown-to-jsx';
 import Main from '../layouts/Main';
 
 const About = () => {
-  const [markdown, setMarkdown] = useState("");
+  const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
     import('../data/about.md')
@@ -19,7 +19,7 @@ const About = () => {
 
   const count = markdown
     .split(/\s+/)
-    .map((s) => s.replace(/\W/g, ""))
+    .map((s) => s.replace(/\W/g, ''))
     .filter((s) => s.length).length;
 
   return (
