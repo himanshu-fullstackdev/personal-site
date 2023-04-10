@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://himanshuarora.dev/",
+  "homepage": "https://mldangelo.com/",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -46,12 +46,12 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "eslint": "^8.36.0",
+    "eslint": "^8.38.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "^7.32.2",
-    "sass": "^1.60.0",
+    "sass": "^1.61.0",
     "source-map-explorer": "^2.5.3"
   },
   "browserslist": {
@@ -67,4 +67,3 @@
     ]
   }
 }
- 
