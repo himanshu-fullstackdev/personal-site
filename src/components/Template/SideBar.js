@@ -32,7 +32,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Himanshu Arora, I craft groundbreaking experiences through
-        Web Development. I am a <b>Senior Fullstack Web Developer</b> at{" "}
+        Web Development. I am a <b>Senior Fullstack Web Developer </b> at{" "}
         <a href="https://www.fiverr.com/himanshu_arora1">
           Fiverr International Limited
         </a>
