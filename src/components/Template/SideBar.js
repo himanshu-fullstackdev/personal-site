@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import ContactIcons from '../Contact/ContactIcons';
+import ContactIcons from "../Contact/ContactIcons";
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -15,8 +15,8 @@ const SideBar = () => (
         <h2>Himanshu Arora</h2>
         <p
           style={{
-            textTransform: 'initial',
-            letterSpacing: 'normal',
+            textTransform: "initial",
+            letterSpacing: "normal",
           }}
         >
           {/* Top Rated Seller on{" "}
@@ -32,8 +32,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Himanshu Arora, I craft groundbreaking experiences through
-        Web Development. I am a{' '}
-        <b>Senior Fullstack Web Developer (TOP RATED SELLER)</b> at{' '}
+        Web Development. I am a <b>Senior Fullstack Web Developer</b> at{" "}
         <a href="https://www.fiverr.com/himanshu_arora1">
           Fiverr International Limited
         </a>
@@ -47,7 +46,7 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? (
+          {!window.location.pathname.includes("/resume") ? (
             <Link to="/resume" className="button">
               Learn More
             </Link>
