@@ -10,7 +10,7 @@ const positions = [
     company: 'Fiverr International Limited',
     position: 'Senior Fullstack Web Developer',
     link: 'https://www.fiverr.com/himanshu_arora1',
-    daterange: 'August 2021 - April 2023 (1 yr 9 mos, Full Time - Remote)',
+    daterange: 'August 2021 - Present (Full Time - Remote)',
     points: [
       'Worked across diverse teams & founders.',
       'Planned, wrote, and debugged web applications.',
